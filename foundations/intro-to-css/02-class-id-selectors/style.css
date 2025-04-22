@@ -1,0 +1,18 @@
+.hello,
+.bye{
+    background-color:#ffc0cb;
+    color:rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bye{
+    font-size:24px;
+}
+#hey{
+    color:rgb(0, 0, 255);
+    font-size:36px;
+}
+#bruv{
+    background-color:rgb(144, 238, 144);
+    font-weight:bold;
+    font-size:24px;
+}

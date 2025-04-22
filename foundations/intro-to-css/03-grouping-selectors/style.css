@@ -1,0 +1,13 @@
+.bye,
+.sup{
+    font-size:28px;
+    font-family:'Helvetica','Times New Roman','sans-serif';
+
+}
+.bye{
+    background-color:black;
+    color:white;
+}
+.sup{
+    background-color: yellow;
+}
