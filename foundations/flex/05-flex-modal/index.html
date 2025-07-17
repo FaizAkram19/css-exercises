@@ -10,11 +10,17 @@
   <body>
     <div class="modal">
       <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
+      <div class="fk-me">
+      <div class="header">Are you sure you want to do that?
       <button class="close-button">✖</button>
+      </div>
       <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
       <button class="continue">Continue</button>
       <button class="cancel">Cancel</button>
+      </div>
     </div>
   </body>
 </html>
+<!--we added a seperate container called fk-me but the weird part is that
+    we didnt style it using flex in css which means its using display block
+    which means that header, text, button are vertically placed instead of side2side-->

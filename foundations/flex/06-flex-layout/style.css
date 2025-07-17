@@ -24,3 +24,61 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+.all{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;/*we added 100% height because without it the footer 
+  wasnt getting pushed to the bottom as the page in flex stretches
+  to match the height of content.*/
+  padding:2px;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding:1px;
+}
+.left-links{
+  display:flex;
+  justify-content:flex-start;
+  padding:5px;
+  gap:15px;
+}
+.right-links{
+  display:flex;
+  justify-content:flex-end;
+  padding:5px;
+  gap: 15px;
+}
+li{
+  gap:5px;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+}
+img{
+  max-width: 400px;
+}
+.footer{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eeeeee;
+  max-height: 50px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  /*there was a bit too much space at the top 
+  and bottom it is default browser settings for ul items
+  so i did this to remove that extra space*/
+}
