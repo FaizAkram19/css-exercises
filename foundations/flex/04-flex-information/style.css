@@ -5,13 +5,29 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding-bottom:  32px; ;
 }
-
+.media-object{
+  display:flex;
+  justify-content: space-evenly;
+  gap:52px;
+  padding:12px;
+}
+.obj{
+  display:flex;
+  flex-direction:column;
+  max-width: 200;
+}
+.text{
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
